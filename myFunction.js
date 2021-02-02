@@ -5,7 +5,7 @@ exports.sum = (a, b) => {
 }
 
 exports.subtract = (a,b) => {
-    return a+b;
+    return a-b;
 }
 
 /* Javascript ES6 Syntax Above
