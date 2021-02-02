@@ -8,7 +8,7 @@ const {sum, subtract} = require('./myFunction.js')
 // In this case our functions are known as anonymous which just means that they're not named and are defined within the parameter space itself
 // () => {...} is usually the formatting for anonymous functions using the ES6 syntax
 test('adds 1 + 2 to equal 3', () => {
-    expect(sum(1, 2)).toBe(3);
+    expect(sum(1, 1)).toBe(3);
   });
 
 test('subtract 1 from 2 to equal 1', () => {
