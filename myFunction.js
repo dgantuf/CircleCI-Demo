@@ -3,5 +3,5 @@ exports.sum = (a, b) => {
 }
 
 exports.subtract = (a,b) => {
-    return a-b;
+    return a+b;
 }
