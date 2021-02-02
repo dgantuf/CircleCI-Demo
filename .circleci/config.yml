@@ -1,0 +1,7 @@
+version: 2.1
+orbs:
+  node: circleci/node:14.11.0   #Check your node version with node -v to adjust this
+workflows:
+  node-tests:
+    jobs:
+      - node/test
